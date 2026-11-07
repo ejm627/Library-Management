@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Admin Dashboard</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Library Statistics</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <h3>Total Books</h3>
+                <h1 id="totalBooks">0</h1>
+            </div>
+
+            <div class="stat-box">
+                <h3>Borrowed Books</h3>
+                <h1 id="borrowedBooks">0</h1>
+            </div>
+
+            <div class="stat-box">
+                <h3>Overdue Books</h3>
+                <h1 id="overdueCount">0</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Library Inventory</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Availability</th>
+                    <th>Borrower</th>
+                    <th>Due Date</th>
+                </tr>
+            </thead>
+
+            <tbody id="bookInventory">
+
+                <!-- Database rows inserted here -->
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
